@@ -1,3 +1,0 @@
-# lateralMenu
-
-teste
