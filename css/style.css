@@ -1,0 +1,86 @@
+body {
+	background-color: #e8e8e8;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	height: 100%;
+}
+
+button {
+	transition: 0.5s;
+	cursor: pointer;
+	border: 0px solid white;
+}
+
+/*Inicio configuração paginação tabela*/
+button.pagination {
+	border-radius: 0px;
+	border-left: 1px dashed rgba(255, 255, 255, 0.2);
+	width: 30px;
+	height: 30px;
+	font-size: 9pt;
+	font-family: 'Verdana';
+	padding: 5px;
+	background-color: #1C4592;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+button.pagination:HOVER {
+	position: inherit;
+	width: 40px;
+	height: 40px;
+	font-size: 11pt;
+	background-color: #0a1834;
+}
+
+button.pageCurrent {
+	border-radius: 0px;
+	border-left: 1px dashed rgba(255, 255, 255, 0.2);
+	width: 30px;
+	height: 30px;
+	font-size: 9pt;
+	font-family: 'Verdana';
+	padding: 5px;
+	background-color: #d4d4d4;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/*Término configuração paginação tabela*/
+
+
+/*Início configuração Tabela novidades*/
+table.tableNews {
+	font-family: 'Verdana';
+	color: #1C4592;
+	font-size: 9pt;
+	width: 100%;
+	margin: 10px;
+}
+
+table.tableNews tr {
+	transition: 0.5s;
+	border-bottom: 1px dashed white;
+}
+table.tableNews tr.nameTable {
+	background-color: #1C4592;
+	color: white;
+}
+table.tableNews tr.nameTable:HOVER {
+	background-color: #1C4592;
+	color: white;
+}
+
+table.tableNews tr:HOVER {
+	background-color: white;
+}
+
+table.tableNews td.nameTable {
+	border: 1px solid white;
+}
+
+table.tableNews td {
+	padding: 15px;
+}
+
+
+/*Termino configuração Tabela novidades*/
